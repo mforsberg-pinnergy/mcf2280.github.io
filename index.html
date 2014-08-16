@@ -1,50 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>Mcf2280.github.io by mcf2280</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-    <a id="forkme_banner" href="https://github.com/mcf2280">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Mcf2280.github.io</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>Mcf2280.github.io</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/mcf2280">View the Project on GitHub <small>mcf2280</small></a></p>
+        <ul>
+          <li class="single"><a href="https://github.com/mcf2280/mcf2280.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>
       </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+      <section>
         <h1>
 <a name="learning-git" class="anchor" href="#learning-git"><span class="octicon octicon-link"></span></a>Learning Git</h1>
 
@@ -60,26 +40,26 @@
 <p>For git to be useful we need to track something.
 We will start with an empty directory </p>
 
-<pre><code>    &gt; mkdir Repository
-    &gt; cd Repository
-    &gt; git init
+<pre><code>&gt; mkdir Repository
+&gt; cd Repository
+&gt; git init
 </code></pre>
 
 <p>Which is equivalent to:</p>
 
-<pre><code>    &gt; git init Repository
+<pre><code>&gt; git init Repository
 </code></pre>
 
 <p>The init command can be used on an empty directory or on with files in it. Either way 
 the files that are going to be tracked must be added to the repository</p>
 
-<pre><code>    (1)&gt; git add file1.txt
+<pre><code>(1)&gt; git add file1.txt
 
-    (2)&gt; git add file*.txt
+(2)&gt; git add file*.txt
 
-    (3)&gt; git add -A .\foo
+(3)&gt; git add -A .\foo
 
-    (4)&gt; git add -A 
+(4)&gt; git add -A 
 </code></pre>
 
 <ol>
@@ -89,21 +69,11 @@ the files that are going to be tracked must be added to the repository</p>
 <li>Adding all untracked files in repository folders</li>
 </ol>
       </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/mcf2280">mcf2280</a> can be found on <a href="https://github.com/mcf2280">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
     </div>
-
+    <footer>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
