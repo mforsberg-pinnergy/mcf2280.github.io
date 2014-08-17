@@ -3,6 +3,7 @@
 ---
 # Table of Contents
 
-[What Git is](WhatGitIs.md.html)
+* [What Git is](WhatGitIs.html)
+* [Gitting Git](GettingGit.html)
+* [Gitting Started](GettingStarted.html)
 
-[Getting Started](GettingStarted.md.html)
