@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>index</title>
+<title>GettingStarted</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,15 +291,38 @@ img {
 </style>
 </head>
 <body>
-<h1>Learning Git</h1>
-<h3>or how I learned to stop worrying and love version control.</h3>
+<h1>Gitting Started</h1>
 <hr />
-<h1>Table of Contents</h1>
-<ul>
-<li><a href="WhatGitIs.html">What Git is</a></li>
-<li><a href="GettingGit.html">Gitting Git</a></li>
-<li><a href="GettingStarted.html">Gitting Started</a></li>
-</ul>
+<h2>Creating a repository</h2>
+<p>For git to be useful we need to track something. We will start with an empty directory</p>
+<pre><code>$ mkdir repo
+$ cd repo
+$ git init
+</code></pre>
+
+<p>Which is equivalent to:</p>
+<pre><code>$ git init Repository
+</code></pre>
+
+<p>The init command can be used on an empty directory or on with files in it. Either way
+the files that are going to be tracked must be added to the repository</p>
+<hr />
+<pre><code>git add file1.txt 
+</code></pre>
+
+<p>Adding a single file</p>
+<pre><code>git add file*.txt
+</code></pre>
+
+<p>Adding all files that start with file and end with .txt</p>
+<pre><code>git add -A .\foo
+</code></pre>
+
+<p>Adding all files that are untracked in the foo directory</p>
+<pre><code>git add -A
+</code></pre>
+
+<p>Adding all untracked files in repository folders</p>
 
 </body>
 </html>
