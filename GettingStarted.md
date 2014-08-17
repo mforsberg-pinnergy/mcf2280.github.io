@@ -17,18 +17,18 @@ The init command can be used on an empty directory or on with files in it. Eithe
 the files that are going to be tracked must be added to the repository
 
 ---
-	git add file1.txt 
+	$ git add file1.txt 
 
 Adding a single file
 
-	git add file*.txt
+	$ git add file*.txt
 
 Adding all files that start with file and end with .txt
 
- 	git add -A .\foo
+ 	$ git add -A .\foo
 
 Adding all files that are untracked in the foo directory
 
-	git add -A
+	$ git add -A
 
 Adding all untracked files in repository folders
